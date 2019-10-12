@@ -76,10 +76,16 @@ export default class CameraExample extends React.Component {
                                                 : Camera.Constants.Type.back,
                                     });
                                 }}>
-                                <Text style={{ fontSize: 18, marginBottom: 10, color: 'white' }}> Flip </Text>
-                                <Text style={{ fontSize: 10, color: 'white' }}
-                                onPress={this.snap}
+                                <Text style={{ fontSize: 18, marginBottom: 10, color: 'white' }}> Flip</Text>
+                                <Text style={{ fontSize: 10, justifyContent: 'center', alignItems: 'center', color: 'white' }}
+                                    onPress={this.snap}
                                 >
+                                    {/* <Image
+                                        // style={{ width: '20%', height: '30px' }}
+                                        source={
+                                            require('./../Screens/icon1.png')
+                                        }
+                                    /> */}
                                     Take photo
                                 </Text>
                             </TouchableOpacity>

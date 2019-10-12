@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import Camera from './src/Screens/Camerapage'
+import ImagePinker from './src/Screens/ImagePinker'
 
 export default class App extends React.Component {
   constructor() {
@@ -21,6 +22,7 @@ export default class App extends React.Component {
               cameraOpen: true
             })}
           />
+          <ImagePinker />
         </View>
     );
   }
